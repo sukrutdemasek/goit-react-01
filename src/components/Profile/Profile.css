@@ -1,0 +1,54 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.profile-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  width: 320px;
+  height: 512px;
+}
+.profile-image {
+  border-radius: 100%;
+  background-color: darkgrey;
+}
+.profile-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 8px;
+}
+.profile-tag {
+  color: grey;
+  text-align: center;
+  margin: 12px 0px 0px 0px;
+}
+.profile-location {
+  color: grey;
+  text-align: center;
+  margin-top: 8px;
+}
+.profile-stats {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding-left: 0%;
+  margin: 0px;
+}
+.profile-stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  height: 100%;
+  padding: 16px;
+  gap: 8px;
+  border: 1px solid darkgrey;
+}
+.stats-number {
+  font-size: 20px;
+}
